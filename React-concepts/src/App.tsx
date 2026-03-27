@@ -5,7 +5,10 @@
 // import RenderingList from "./RenderingList";
 // import Statee from "./State";
 
-import Board from "./Components/Tic-Tac-Toe/Board";
+import Updatingfromvalues from "./Components/Revising a Usestate Hook/Updatingfromvalues";
+
+// import Board from "./Components/Tic-Tac-Toe/Board";
+// import Hook from "./Components/Revising a Usestate Hook/UsestateHook";
 
 function App() {
 // const [count, setCount] = useState<number>(0);
@@ -17,7 +20,9 @@ function App() {
 
 return (
   <div>
-    <Board/>
+    {/* <Board/> */}
+    {/* <Hook/> */}
+<Updatingfromvalues/>
 //     {/* <h1>All components will be rendered here</h1>
 //     <Buttons value={count} onClick={handleClick}/>
 //     <Buttons value={count} onClick={handleClick}/> */}
