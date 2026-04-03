@@ -4,9 +4,11 @@
 // import Profile from "./Components/Profile";
 // import RenderingList from "./RenderingList";
 // import Statee from "./State";
-
-import Updatingfromvalues from "./Components/Revising a Usestate Hook/Updatingfromvalues";
-import Initial_function from "./Passing the initializer function/Initial_function";
+import ChatRoom from "./Components/Useeffect/chat";
+// import { Conditionalrendering } from "./Components/Conditional-rendering";
+// import Conn_rend from "./Components/Conditional_rendering/Conn_rend";
+// import Updatingfromvalues from "./Components/Revising a Usestate Hook/Updatingfromvalues";
+// import Initial_function from "./Passing the initializer function/Initial_function";
 
 // import Board from "./Components/Tic-Tac-Toe/Board";
 // import Hook from "./Components/Revising a Usestate Hook/UsestateHook";
@@ -22,17 +24,17 @@ function App() {
     <div>
       {/* <Board/> */}
       {/* <Hook/> */}
-      <Updatingfromvalues />
-    
+      {/* <Updatingfromvalues /> */}
+      {/* <Conn_rend /> */}
       {/* <h1>All components will be rendered here</h1>
 //     <Buttons value={count} onClick={handleClick}/>
 //     <Buttons value={count} onClick={handleClick}/> */}
       // {/* <Profile /> */}
       // {/* <Conditionalrendering /> */}
-      
       {/* <RenderingList/>
 //     <Statee/> */}
-      <Initial_function />
+      {/* <Initial_function /> */}
+      <ChatRoom />
     </div>
   );
 }
